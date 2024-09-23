@@ -14,6 +14,10 @@ Loops through tons of words and returns if the username is taken or not.
 
 Find ```url = "https://raw.githubusercontent.com/dwyl/english-words/master/words.txt"``` in the code and replace with your wordlist link.
 
+# Showcase
+
+https://www.youtube.com/watch?v=f5fNcnNEAOo
+
 # Note
 
 Don't use this thinking you'll get a name in minutes. No. This loops through various common words which are guaranteed to already be taken.

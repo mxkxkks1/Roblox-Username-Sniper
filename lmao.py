@@ -38,7 +38,6 @@ def check(u):
         print(f"{Fore.YELLOW}Error: {u} - Status Code: {r.status_code}")
 
 def main():
-    # ASCII art
     ascii_art = """
     ╔═════════════════════════════════════════════╗
     ║  ____       _     _                         ║
@@ -53,7 +52,7 @@ def main():
     print(Fore.CYAN + ascii_art)
     print(Fore.MAGENTA + Style.BRIGHT + "Made by mxkxkks\n")
 
-    s.get('https://www.roblox.com/')  # Get initial cookies
+    s.get('https://www.roblox.com/')
     t = int(input(Fore.YELLOW + "Threads: "))
     print(Fore.CYAN + "\nStarting username check...\n")
     with ThreadPoolExecutor(max_workers=t) as e:
